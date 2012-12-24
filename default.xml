@@ -2,9 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="master"
+           fetch="https://android-review.googlesource.com/" />
+           
+  <remote  name="MOD"
+           fetch="git://github.com/DhE17Roms" />
+           
+  <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
 
