@@ -366,5 +366,8 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  
+  <project path="vendor/warped" remote="MOD" name="proprietary_vendor_warped" revision="master" />
+  <project path="vendor/samsung" remote="MOD" name="android_vendor_samsung" revision="master" />
 
 </manifest>
